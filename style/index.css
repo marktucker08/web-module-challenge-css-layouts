@@ -69,6 +69,15 @@ body {
     background-color: #fffafa;
   }
 
+/* header items */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
 h1 {
     font-size: 3rem;
     text-align: left;
@@ -85,6 +94,7 @@ header nav {
     background: lightgray;
 }
 
+/* .me main section */
 
 .me {
     display: flex;
@@ -94,10 +104,15 @@ header nav {
 
 .image {
     width: 30%;
+    padding: 2%;
 }
 
 .round {
     border-radius: 50%;
+}
+
+h2 {
+    font-size: 2.5rem;
 }
 
 .text {
@@ -105,3 +120,33 @@ header nav {
     margin-left: 5%;
     text-align: center;
     line-height: 3;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.projects div {
+    width: 40%;
+    height: 40vh;
+    margin: 2% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.html {
+    background-image: url("https://picsum.photos/200");
+}
+.css {
+    background-image: url("https://picsum.photos/200");
+}
+.js {
+    background-image: url("https://picsum.photos/200");
+}
+.misc {
+    background-image: url("https://picsum.photos/200");
+}
+  
