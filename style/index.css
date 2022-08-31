@@ -72,10 +72,13 @@ body {
 /* header items */
 
 .main {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 15px;
 }  
 
 h1 {
@@ -84,14 +87,14 @@ h1 {
 }
 
 header nav {
-    display: flex;
+    /* display: flex; */
 }
 
 .links {
-    width: 100px;
+    /* width: 100px;
     margin: 0 2%;
     border: 1px solid black;
-    background: lightgray;
+    background: lightgray; */
 }
 
 /* .me main section */
@@ -117,45 +120,55 @@ h2 {
 
 .text {
     width: 55%;
+    padding: 20px;
     margin-left: 5%;
-    text-align: center;
-    line-height: 3;
+    line-height: 2;
 }
 
-.projects {
+/* projects section */
+
+.row {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
-.projects div {
-    /* width: 200px;
-    height: 200px; */
-    margin: 4% 0;
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
+.portfolio-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+}
+
+button a {
+    text-decoration: none;
+    color:inherit;
+}
+
+/* contacts-footer section */
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
 }
 
 .contact {
-    margin: 4% auto;
+    /* margin: 4% auto;
     padding: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
-
-/* .html {
-    background-image: url("https://picsum.photos/200");
-}
-.css {
-    background-image: url("https://picsum.photos/200");
-}
-.js {
-    background-image: url("https://picsum.photos/200");
-}
-.misc {
-    background-image: url("https://picsum.photos/200");
-}
-   */
