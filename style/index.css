@@ -172,3 +172,51 @@ footer {
     justify-content: center;
     align-items: center; */
 }
+
+/* media queries for responsive design */
+
+@media (max-width:800px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .me {
+        flex-direction: column;
+    }
+    .image {
+        width: 50%;
+    }
+    .text {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text p {
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .text {
+        width: 90%;
+    }
+    .row {
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer button{
+        display: flex;
+        flex-direction: column;
+    }
+}
