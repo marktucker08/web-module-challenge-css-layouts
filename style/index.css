@@ -182,8 +182,14 @@ footer {
         align-items: center;
     }
     header nav {
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    button {
+        width: 40%;
+        margin: 1% 0;
     }
     .me {
         flex-direction: column;
@@ -209,14 +215,14 @@ footer {
     .row {
         flex-direction: column;
     }
-    footer {
+    /* footer {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
+        align-items: center; 
     }
-    footer button{
+        footer button{
         display: flex;
         flex-direction: column;
-    }
+    } */
 }
